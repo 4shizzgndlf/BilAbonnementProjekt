@@ -40,7 +40,7 @@ public class UserRepository {
             }
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("DB ERROR: " + e.getMessage());
         }
         return users;
     }
