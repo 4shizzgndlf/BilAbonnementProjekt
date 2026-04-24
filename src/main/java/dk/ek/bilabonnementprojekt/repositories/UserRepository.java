@@ -21,9 +21,11 @@ public class UserRepository {
         List<User> users = new ArrayList<>();
         String sql = "SELECT * FROM brugere";
 
+
         try (Connection conn = DriverManager.getConnection(dbUrl, username, password);
              Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery(sql)) {
+            System.out.println("DB CONNECTED SUCCESSFULLY");
 
             while (rs.next()) {
                 User u = new User(
