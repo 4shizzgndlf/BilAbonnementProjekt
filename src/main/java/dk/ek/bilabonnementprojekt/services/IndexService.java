@@ -1,7 +1,7 @@
 package dk.ek.bilabonnementprojekt.services;
 
 import dk.ek.bilabonnementprojekt.models.User;
-import dk.ek.bilabonnementprojekt.respositories.UserRepository;
+import dk.ek.bilabonnementprojekt.repositories.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package dk.ek.bilabonnementprojekt.respositories;
+package dk.ek.bilabonnementprojekt.repositories;
 
 import dk.ek.bilabonnementprojekt.models.User;
 import org.springframework.beans.factory.annotation.Value;
